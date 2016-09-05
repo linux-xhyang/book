@@ -1,0 +1,10 @@
+[writers2]
+ioengine=sync
+iodepth=4
+rw=write
+bs=64k
+direct=1
+size=4096m
+runtime=20s
+numjobs=1
+cgroup=bg

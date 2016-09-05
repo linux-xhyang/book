@@ -1,0 +1,10 @@
+[writers1]
+ioengine=sync
+iodepth=4
+rw=write
+bs=64k
+direct=0
+size=4096m
+runtime=20s
+numjobs=1
+cgroup=test1
